@@ -43,6 +43,6 @@ If you want to add functionality to this project, pull requests are welcome.
 
  * [@sthulb](https://twitter.com/sthulb)
 
-Docker PAL is © 2014 BBC News. It is free software and may be redistributed under the terms
+Docker Ruby is © 2014 BBC News. It is free software and may be redistributed under the terms
 specified in the
 [LICENCE](https://github.com/bbc-news/docker-ruby/tree/master/LICENCE) file.
