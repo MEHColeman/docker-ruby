@@ -10,7 +10,7 @@ RUN mkdir -p /app/tmp
 RUN curl -o /app/tmp/ruby-install-0.3.4.tar.gz -L https://github.com/postmodern/ruby-install/archive/v0.3.4.tar.gz
 RUN mkdir -p /app/build
 RUN tar zxfv /app/tmp/ruby-install-0.3.4.tar.gz -C /app/tmp
-RUN /app/tmp/ruby-install-0.3.4/bin/ruby-install ruby 2.1.1 -i /usr/local -- --disable-install-doc
+RUN /app/tmp/ruby-install-0.3.4/bin/ruby-install ruby 2.1.2 -i /usr/local -- --disable-install-doc
 RUN gem install bundler --no-ri --no-rdoc
 
 RUN adduser rubyapp --home /app
